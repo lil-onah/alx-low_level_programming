@@ -1,17 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Author: lil-onah
- * Return: Always 0 (Success)
+ * main - Entry point 
+ * Author - Onah
+ * Return: Always 0 success
  */
-int main(void)
+int main (void)
 {
-	char string[70] = "\"Programming is like building a multilingual puzzle\"";
-
-	puts(string);
-
-	/* Tried printing it directly */
-
-	puts("\"Programming is like building a multilingual puzzle\"");
-	return (0);
+	puts("Programming is like building a multilingual puzzle");
+}
+return 0;
