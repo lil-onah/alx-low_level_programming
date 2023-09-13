@@ -7,7 +7,7 @@
  * Description : C program to print positive, negative, and zero of random num
  * Author: Onah Godwin
  * Date : 13-09-2023
- * Return : 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
