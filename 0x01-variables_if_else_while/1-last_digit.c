@@ -1,15 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - Entry point
- * Author: onah
- * Description: This program will assign a random number to a variable n
- * Return: Always 0 (Success)
- */
-
-
+ * author: Onah
+ * date: 15-09-2023
+ * Return: 0 (success)
+*/
 int main(void)
 {
 	int n;
@@ -17,18 +14,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	int lastDigit = n % 10;
-
-	printf("The string Last digits of %d is ", n);
-
-		if (lastDigit > 5)
-			printf("and is greater than 5\n");
-		else if (lastDigit == 0)
-			printf("and is 0\n");
-
-		else if (lastDigit < 5)
-			printf("and is less than 6 and not 0\n");
-
-
+	if (n % 10 > 5)
+		printf("Last digit 0f %d is %d and is greater than 5\n", n, n % 10);
+	else if (n % 10 == 0)
+		printf("Last digit of %d is %d and is 0\n", n, n % 10);
+	else if ((n % 10 < 6) && n % 10 != 0)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 	return (0);
 }
