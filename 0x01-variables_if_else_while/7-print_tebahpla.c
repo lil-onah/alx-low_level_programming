@@ -2,15 +2,15 @@
 
 /**
  * main - Entry point
- * author: sammy
+ * author: onah
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char sammy;
+	char onah;
 
-	for (sammy = 'z'; sammy >= 'a'; sammy--)
-		putchar(sammy);
+	for (onah = 'z'; onah >= 'a'; onah--)
+		putchar(onah);
 	putchar('\n');
 	return (0);
 }
