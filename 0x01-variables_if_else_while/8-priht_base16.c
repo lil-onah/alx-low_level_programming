@@ -2,16 +2,16 @@
 
 /**
  * main - Entry point
- * autor: sammy
+ * autor: onah
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int sammy;
+	int onah;
 	char kingx;
 
-	for (sammy = 48; sammy < 58; sammy++)
-		putchar(sammy);
+	for (onah = 48; onah < 58; onah++)
+		putchar(onah);
 	for (kingx = 'a'; kingx <= 'f'; kingx++)
 		putchar(kingx);
 	putchar('\n');
