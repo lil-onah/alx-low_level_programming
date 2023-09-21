@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - Entry point
- * author: Sammykingx
+ * author: Onah
  * date:05-06-2022
  * Return: 0 (success)
 */
