@@ -3,7 +3,7 @@
  * main - program compilation begins from main
  * Description: Program to print all possible combinations of numbers
  with no two numbers same in pairing
- * author: sammykingx
+ * author: onah
  * Return: 0 means success
  */
 int main(void)
