@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	char c;
-	char d;
+	char onah;
+	char godwin;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (onah = 'a'; onah <= 'z'; onah++)
 		putchar(c);
-	for (d = 'A'; d <= 'Z'; d++)
+	for (godwin = 'A'; godwin <= 'Z'; godwin++)
 		putchar(d);
 	putchar('\n');
 	return (0);
