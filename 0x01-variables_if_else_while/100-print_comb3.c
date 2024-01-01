@@ -9,7 +9,6 @@
 int main(void)
 {
 int a, b;
-
 for (a = 48; a <= 57; a++)
 {
 for (b = 49; b <= 57; b++)
@@ -18,8 +17,16 @@ if (a != b && b > a)
 {
 putchar(a);
 putchar(b);
+/* checks if its the last combination */
+if (a == 56 && b == 57)
+{
+	/* skips comma and space */
+}
+else
+{
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
