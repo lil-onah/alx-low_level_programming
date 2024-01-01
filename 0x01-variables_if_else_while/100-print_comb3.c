@@ -2,7 +2,7 @@
 /**
  * main - program compilation begins from main
  * Description: Program to print all possible combinations of numbers
- with no two numbers same in pairing
+ * with no two numbers same in pairing
  * author: onah
  * Return: 0 means success
  */
@@ -12,7 +12,7 @@ int a, b;
 
 for (a = 48; a <= 57; a++)
 {
-for (b = 49; b <= 57; b++)
+for (b = 49; b < 57; b++)
 {
 if (a != b && b > a)
 {
