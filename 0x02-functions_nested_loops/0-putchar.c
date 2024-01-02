@@ -1,8 +1,9 @@
 #include "main.h"
 
-/** main - Entry point
+/**
+ * main - Entry point
  * Description: a code that prints putchar
- * Return value - it should return an int 
+ * Return value - it should return an int
  */
 
 int main(void)
