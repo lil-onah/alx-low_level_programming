@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: a code that prints putchar
- * Return value - it should return an int
+ * Return: int should return an int
  */
 
 int main(void)
