@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - Return 1 if c is a letter. lower or uppercase
+ * @c: it prints the int value
  * Desription: program that uses the if else statement to determine an answer
  * Return: return an int value
  */
