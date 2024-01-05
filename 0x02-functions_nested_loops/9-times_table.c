@@ -25,8 +25,8 @@ void times_table(void)
 			}
 			if (result >= 10)
 			{
-				_putchar(result / 10);
-				_putchar(result % 10);
+				_putchar((result / 10) + '0');
+				_putchar((result % 10) + '0');
 			}
 			else
 			{
