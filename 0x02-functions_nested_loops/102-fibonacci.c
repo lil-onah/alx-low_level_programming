@@ -12,12 +12,15 @@ int main(void)
 
 	printf("%lu, %lu", first, second);
 
-for (int o = 3; o <= n; o++)
+int o = 3;
+while (o <= n)
 {
-sum = first + second;
+	sum = first + second;
 printf(", %lu", sum);
+
 first = second;
 second = sum;
+o++;
 }
 printf("\n");
 return (0);
