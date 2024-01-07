@@ -1,19 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * postive_or_negative - prints the num
- * @i: print positive, negative, and zero of random num
- * Date : 07-01-2024
- * Return: Always 0 (Success)
- */
+* main - tests function that prints if integer is positive or negative
+* Return: 0
+*/
 
-void postive_or_negative(int i)
+int main(void)
 {
-	if (i > 0)
-		printf("%d is positive\n", i);
-	else if (i == 0)
-		printf("%d is zero\n", i);
-	else if (i < 0)
-		printf("%d is negative\n", i);
+
+	int i;
+
+	i = 98;
+
+	positive_or_negative(i);
+	return (0);
 }
