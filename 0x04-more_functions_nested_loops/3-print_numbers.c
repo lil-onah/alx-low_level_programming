@@ -1,6 +1,4 @@
 #include "main.h"
-/* declaration for putchar */
-int _putchar(char c);
 
 /**
  * print_numbers - prints numbers from 0 - 9
